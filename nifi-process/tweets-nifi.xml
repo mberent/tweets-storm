@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <template encoding-version="1.0">
   <description></description>
-  <groupId>38df3473-015a-1000-b027-9f2fe09ab251</groupId>
-  <name>tweets-nifi</name>
+  <groupId>52a756f5-015a-1000-e061-14321c9a6e49</groupId>
+  <name>sdfcsdf</name>
   <snippet>
     <connections>
       <id>015a100d-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a100a-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -19,7 +19,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1000-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -27,11 +27,11 @@
     </connections>
     <connections>
       <id>015a1011-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1010-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -40,7 +40,7 @@
       <name></name>
       <selectedRelationships>matched</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>3f260837-4af2-44b3-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -48,11 +48,11 @@
     </connections>
     <connections>
       <id>015a1012-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1000-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -61,7 +61,7 @@
       <name></name>
       <selectedRelationships>hashtags</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1010-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -69,11 +69,11 @@
     </connections>
     <connections>
       <id>015a1014-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1013-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -82,7 +82,7 @@
       <name></name>
       <selectedRelationships>unmatched</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a100a-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -90,11 +90,11 @@
     </connections>
     <connections>
       <id>015a1018-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1017-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -103,7 +103,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1013-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -111,11 +111,11 @@
     </connections>
     <connections>
       <id>015a101c-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a101b-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -124,7 +124,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1017-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -132,11 +132,11 @@
     </connections>
     <connections>
       <id>015a101d-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1003-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -145,7 +145,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a101b-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -153,11 +153,11 @@
     </connections>
     <connections>
       <id>015a102b-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1027-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -166,7 +166,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>3944d865-015a-1000-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -174,11 +174,11 @@
     </connections>
     <connections>
       <id>015a102d-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1023-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -187,7 +187,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a101f-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -195,11 +195,11 @@
     </connections>
     <connections>
       <id>015a102e-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>38d08204-015a-1000-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -208,7 +208,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1023-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -216,11 +216,11 @@
     </connections>
     <connections>
       <id>015a1031-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1030-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -229,7 +229,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1027-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -237,11 +237,11 @@
     </connections>
     <connections>
       <id>015a1032-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a101f-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -250,7 +250,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>015a1030-d865-1944-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -258,11 +258,11 @@
     </connections>
     <connections>
       <id>39455d2b-015a-1000-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>34f8b0e2-4772-4448-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -271,7 +271,7 @@
       <name></name>
       <selectedRelationships>matched</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>3f260837-4af2-44b3-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -279,11 +279,11 @@
     </connections>
     <connections>
       <id>3945f891-015a-1000-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>3944d865-015a-1000-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -292,7 +292,7 @@
       <name></name>
       <selectedRelationships>tweet</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>34f8b0e2-4772-4448-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -300,11 +300,11 @@
     </connections>
     <connections>
       <id>487b273e-69d9-4900-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>1000</backPressureObjectThreshold>
       <destination>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>3f260837-4af2-44b3-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
@@ -313,7 +313,7 @@
       <name></name>
       <selectedRelationships>success</selectedRelationships>
       <source>
-        <groupId>38df3473-015a-1000-0000-000000000000</groupId>
+        <groupId>52a756f5-015a-1000-0000-000000000000</groupId>
         <id>4c0c698b-1de5-48ce-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
@@ -321,7 +321,7 @@
     </connections>
     <processors>
       <id>015a1000-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1046.5730470110443</x>
         <y>550.3011568551451</y>
@@ -362,7 +362,7 @@
         <properties>
           <entry>
             <key>Attributes List</key>
-            <value>twitter.hashtags</value>
+            <value>hashtags</value>
           </entry>
           <entry>
             <key>Destination</key>
@@ -396,7 +396,7 @@
     </processors>
     <processors>
       <id>015a1003-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>932.1720642905552</x>
         <y>1111.3968702066347</y>
@@ -568,7 +568,7 @@
     </processors>
     <processors>
       <id>015a100a-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1034.0272858264457</x>
         <y>747.4503979034178</y>
@@ -621,7 +621,7 @@
           </entry>
           <entry>
             <key>empty</key>
-            <value>\{\"twitter.hashtags\":\"\[\]\"\}</value>
+            <value>\{\"hashtags\":\"\[\]\"\}</value>
           </entry>
         </properties>
         <runDurationMillis>0</runDurationMillis>
@@ -643,7 +643,7 @@
     </processors>
     <processors>
       <id>015a1010-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1042.4334502756305</x>
         <y>366.81403648376465</y>
@@ -676,7 +676,7 @@
           </entry>
           <entry>
             <key>hashtags</key>
-            <value>${twitter.hashtags:isEmpty():not()}</value>
+            <value>${hashtags:isEmpty():not()}</value>
           </entry>
         </properties>
         <runDurationMillis>25</runDurationMillis>
@@ -698,7 +698,7 @@
     </processors>
     <processors>
       <id>015a1013-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1446.5673828125</x>
         <y>756.7239854188156</y>
@@ -793,7 +793,7 @@
     </processors>
     <processors>
       <id>015a1017-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1442.38037109375</x>
         <y>925.9300553651046</y>
@@ -888,7 +888,7 @@
     </processors>
     <processors>
       <id>015a101b-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>1415.91650390625</x>
         <y>1097.4903275819015</y>
@@ -983,7 +983,7 @@
     </processors>
     <processors>
       <id>015a101f-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>16.4649658203125</x>
         <y>883.2154710145187</y>
@@ -1078,7 +1078,7 @@
     </processors>
     <processors>
       <id>015a1023-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>84.8309326171875</x>
         <y>1113.2000291199874</y>
@@ -1173,7 +1173,7 @@
     </processors>
     <processors>
       <id>015a1027-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>0.0</x>
         <y>517.9288499207687</y>
@@ -1268,7 +1268,7 @@
     </processors>
     <processors>
       <id>015a1030-d865-1944-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>22.7625732421875</x>
         <y>708.5084702820968</y>
@@ -1363,7 +1363,7 @@
     </processors>
     <processors>
       <id>34f8b0e2-4772-4448-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>506.34922176000555</x>
         <y>331.4624129486084</y>
@@ -1396,7 +1396,7 @@
           </entry>
           <entry>
             <key>tweet</key>
-            <value>${twitter.msg:isEmpty():not()}</value>
+            <value>${message:isEmpty():not()}</value>
           </entry>
         </properties>
         <runDurationMillis>25</runDurationMillis>
@@ -1418,7 +1418,7 @@
     </processors>
     <processors>
       <id>38d08204-015a-1000-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>470.5132508139927</x>
         <y>1114.0090986001894</y>
@@ -1590,7 +1590,7 @@
     </processors>
     <processors>
       <id>3944d865-015a-1000-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>502.0618165422943</x>
         <y>546.6093538766295</y>
@@ -1631,7 +1631,7 @@
         <properties>
           <entry>
             <key>Attributes List</key>
-            <value>twitter.msg</value>
+            <value>message</value>
           </entry>
           <entry>
             <key>Destination</key>
@@ -1665,7 +1665,7 @@
     </processors>
     <processors>
       <id>3f260837-4af2-44b3-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>850.5827880441852</x>
         <y>171.3739022064209</y>
@@ -1700,15 +1700,15 @@
             </value>
           </entry>
           <entry>
-            <key>twitter.hashtags</key>
+            <key>hashtags</key>
             <value>
-              <name>twitter.hashtags</name>
+              <name>hashtags</name>
             </value>
           </entry>
           <entry>
-            <key>twitter.msg</key>
+            <key>message</key>
             <value>
-              <name>twitter.msg</name>
+              <name>message</name>
             </value>
           </entry>
         </descriptors>
@@ -1733,11 +1733,11 @@
             <value>empty string</value>
           </entry>
           <entry>
-            <key>twitter.hashtags</key>
+            <key>hashtags</key>
             <value>$.entities.hashtags[*].text</value>
           </entry>
           <entry>
-            <key>twitter.msg</key>
+            <key>message</key>
             <value>$.text</value>
           </entry>
         </properties>
@@ -1764,7 +1764,7 @@
     </processors>
     <processors>
       <id>4c0c698b-1de5-48ce-0000-000000000000</id>
-      <parentGroupId>38df3473-015a-1000-0000-000000000000</parentGroupId>
+      <parentGroupId>52a756f5-015a-1000-0000-000000000000</parentGroupId>
       <position>
         <x>889.681245380611</x>
         <y>0.0</y>
@@ -1839,7 +1839,7 @@
           </entry>
           <entry>
             <key>Consumer Key</key>
-            <value>BJAU1IEom5xWoGa9Z66KKxoLt</value>
+            <value>2p9xJym9pndWHRqk0rbPOLWQf</value>
           </entry>
           <entry>
             <key>Consumer Secret</key>
@@ -1880,5 +1880,5 @@
       <type>org.apache.nifi.processors.twitter.GetTwitter</type>
     </processors>
   </snippet>
-  <timestamp>02/16/2017 12:03:44 CET</timestamp>
+  <timestamp>02/19/2017 00:03:42 CET</timestamp>
 </template>
