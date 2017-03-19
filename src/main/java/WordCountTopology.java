@@ -1,3 +1,4 @@
+import bolts.FilerWords;
 import bolts.TweetHashtagsDeserialize;
 import bolts.TweetTextDeserialize;
 import bolts.WordCount;
@@ -61,8 +62,11 @@ public class WordCountTopology {
         builder.setBolt("split", new SplitSentence(), 8)
                 .shuffleGrouping("deserialize");
 
+        builder.setBolt("filterText", new FilerWords(), 8)
+                .shuffleGrouping("split");
+
         builder.setBolt("count", new WordCount(), 1)
-                .fieldsGrouping("split", new Fields("word"));
+                .fieldsGrouping("filterText", new Fields("word"));
 
         KafkaBolt tweetTextResult = new KafkaBolt()
                 .withProducerProperties(prepareKafkaProducerProperties())
@@ -79,8 +83,11 @@ public class WordCountTopology {
         builder.setBolt("split_hashtags", new SplitSentence(), 8)
                 .shuffleGrouping("deserialize_hashtags");
 
+        builder.setBolt("filterHashtags", new FilerWords(), 8)
+                .shuffleGrouping("split_hashtags");
+
         builder.setBolt("count_hashtags", new WordCount(), 1)
-                .fieldsGrouping("split_hashtags", new Fields("word"));
+                .fieldsGrouping("filterHashtags", new Fields("word"));
 
         KafkaBolt tweetHashtagsResult = new KafkaBolt()
                 .withProducerProperties(prepareKafkaProducerProperties())
